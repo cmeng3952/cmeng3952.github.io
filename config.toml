@@ -1,0 +1,59 @@
+baseURL = 'https://cmeng3952.github.io/'
+title = 'cmeng3952 的博客'
+theme = 'hugo-book'
+languageCode = 'zh-cn'
+
+# 启用 Git 信息（用于显示最后修改时间）
+enableGitInfo = true
+disablePathToLower = true
+
+# Markdown 渲染配置
+[markup]
+[markup.goldmark.renderer]
+  # 允许不安全的 HTML（用于某些 shortcodes）
+  unsafe = true
+
+[markup.tableOfContents]
+  startLevel = 1
+  endLevel = 6
+
+[markup.highlight]
+  style = 'monokai'
+
+# 主题参数配置
+[params]
+  # 主题颜色：light, dark 或 auto
+  BookTheme = 'auto'
+
+  # 显示目录
+  BookToC = true
+
+  # 设置 favicon
+  BookFavicon = 'favicon.png'
+
+  # 指定文档内容目录
+  BookSection = 'docs'
+
+  # GitHub 仓库地址
+  BookRepo = 'https://github.com/cmeng3952/cmeng3952.github.io'
+
+  # 启用搜索功能
+  BookSearch = true
+
+  # 禁用评论（可以后续启用）
+  BookComments = false
+
+  # 日期格式
+  BookDateFormat = '2006年1月2日'
+
+  # 编辑链接模板
+  BookEditLink = '{{ .Site.Params.BookRepo }}/edit/main/{{ .Path }}'
+
+  # 最后修改链接模板
+  BookLastChangeLink = '{{ .Site.Params.BookRepo }}/commit/{{ .GitInfo.Hash }}'
+
+# 菜单配置
+[[menu.after]]
+  name = 'GitHub'
+  url = 'https://github.com/cmeng3952'
+  weight = 10
