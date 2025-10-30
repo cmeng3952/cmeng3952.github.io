@@ -1,6 +1,6 @@
 ---
 title: 开始使用
-weight: 1
+weight: 3
 ---
 
 # 开始使用
