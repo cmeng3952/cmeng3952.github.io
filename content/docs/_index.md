@@ -39,6 +39,12 @@ bookCollapseSection: false
 - 性能优化建议
 - 调优流程和技巧
 
+#### [ROS 2 QoS 服务质量详解](/docs/ros2-qos-guide/)
+- QoS 核心概念（可靠性、持久性、历史策略）
+- 预定义 QoS 配置
+- QoS 兼容性问题与解决方案
+- 完整的 Python 和 C++ 示例
+
 ---
 
 ### 问题解决
